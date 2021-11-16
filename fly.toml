@@ -8,7 +8,7 @@ app = "junpi"
 
 [mount]
   destination = "/data"
-  source = "nginx_data"
+  source = "hinapi"
 
 [[services]]
   internal_port = 8080
